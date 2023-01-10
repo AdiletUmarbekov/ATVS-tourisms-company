@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrocopter</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/logoicon.ico">
+    <link rel="stylesheet" href="./src/libs/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/libs/carousel/vertical-carousel.css">
+    <link rel="stylesheet" href="./src/libs/jquery/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./src/libs/swiper/bundle.css">
+    <link rel="stylesheet" href="./src/libs/swiper/bundle-min.csss">
+    <link rel="stylesheet" href="./src/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="./src/libs/slick/slick.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=b37d3d30-049c-4b2f-a1a3-a001d302703a&lang=ru_RU"
+        type="text/javascript">
+        </script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar1">
+            <div class="container">
+                <nav class="header__div">
+                    <div class="header__logo">
+                        <img class="header__logo" src="./src/img/logo.png" alt="logo">
+                    </div>
+                    <div class="nav-menu1">
+                        <div class="header__li">
+                            <ul class="header__tabs">
+                                <li class="header__tabs1"><a href="#" class="header__tabs1">Route</a></li>
+                                <li class="header__tabs1"><a href="#" class="header__tabs1">Gallery</a></li>
+                                <li class="header__tabs1"><a href="#" class="header__tabs1">Question</a></li>
+                                <li class="header__tabs1"><a href="#" class="header__tabs1">Contact</a> </li>
+                                <li class="header__tabs2"><a href="#" class="header__tabs1">To book</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__telme">
+                            <a href="tel:+7 928 333 26 45" class="header__tel"><img class="header__phone"
+                                    src="./src/img/phone.svg" alt="phone">+7 928 333
+                                26 45</a>
+                            <button class="header__button">Call us</button>
+                        </div>
+                    </div>
+
+                    <div class="humburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="home">
+            <div class="container">
+                <div class="carousel">
+                    <h2 class="home__title">Excursions on ATVs in Gelendzhik</h2>
+                    <p class="home__subtitle">come for new sensations and emotions!</p>
+                    <button class="home__button">Pick up a route</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="col">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-3 col-md-6 col-sm-8 col__items ">
+                        <img src="./src/img/trees.png" alt="treesicon">
+                        <h3 class="col__h3">Fascinating excursions</h3>
+                        <p class="col__subtitle">Routes from forest paths
+                            to complete off-road!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-8 col__items">
+                        <img src="./src/img/moto.png" alt="moto">
+                        <h3 class="col__h3">Reliable technology</h3>
+                        <p class="col__subtitle">18 ATVs of all Japanese brands</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-8 col__items">
+                        <img src="./src/img/equipment.png" alt="equipment">
+                        <h3 class="col__h3">Equipment for free</h3>
+                        <p class="col__subtitle">Required equipment
+                            issued free of charge</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-8 col__items">
+                        <img src="./src/img/person.png" alt="person">
+                        <h3 class="col__h3">Experienced instructors</h3>
+                        <p class="col__subtitle">Ensure the safety of your holiday</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="route">
+            <div class="container">
+                <h2 class="route__title">Our routes</h2>
+                <div class="route__block1">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8 route__pack">
+                            <h3 class="route__block-subtitle">BASE</h3>
+                            <p class="route__block-price">
+                                from 4000 RUB
+                            </p>
+                            <p class="route__block-travel route__travel">Travel time:<span class="route__block-span">
+                                    1.5 -
+                                    2 hours</span>
+                            </p>
+                            <p class="route__block-travel route__distance">Distance: <span class="route__block-span"> 20
+                                    -
+                                    25 km</span>
+                            </p>
+                            <p class="route__block-travel route__difficulty">
+                                Difficulty: <span class="route__block-span"> 5***</span>
+                            </p>
+                            <p class="route__title-route">Route</p>
+                            <p class="route__info">Lookout - Spring - Dzhigit's Stone - Aderbievka - Mount Neksis -
+                                - Storm Gates - Barbecues - Tsygelsky waterfall (cup of love) -
+                                -Fast and Furious</p>
+                            <div class="route__buttons">
+                                <button class="route__more">
+                                    More
+                                </button>
+                                <button class="route__booking">
+                                    Booking
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <section class="my-10">
+
+                                <section class="carousel-3D-swiper-section">
+                                    <!-- Slider main container -->
+                                    <div class="carousel-3D-swiper">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper" style="max-width: 1200px;">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr8.jpg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr344444.png" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr333.png" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/336666666666666666.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/999.jpg" alt="">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- pagination -->
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-pagination" style="bottom: -50px;"></div>
+                                    </div>
+                                </section>
+                            </section>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="route__block2">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <section class="my-10">
+
+                                <section class="carousel-3D-swiper-section">
+                                    <!-- Slider main container -->
+                                    <div class="carousel-3D-swiper">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper" style="max-width: 1200px;">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video"
+                                                        src="./src/img/quadro1111111111111222222222222222222222.png"
+                                                        alt="quadrocopter">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadro5555555.jpg"
+                                                        alt="quadrocopter">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadrooo12210021.png"
+                                                        alt="quadrocopter">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/999.jpg"
+                                                        alt="quadrocopter">
+
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/336666666666666666.jpg"
+                                                        alt="quadrocopter">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- pagination -->
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-pagination" style="bottom: -50px;"></div>
+                                    </div>
+                                </section>
+                            </section>
+
+                        </div>
+                        <div class="col-md-6 col-sm-8 route__pack">
+                            <h3 class="route__block-subtitle">ADVANCED</h3>
+                            <p class="route__block-price">
+                                from 16000 RUB
+                            </p>
+                            <p class="route__block-travel route__travel">Travel time:<span class="route__block-span">
+                                    6 - 8 hours</span>
+                            </p>
+                            <p class="route__block-travel route__distance">Distance: <span class="route__block-span"> 50
+                                    -
+                                    70 km</span>
+                            </p>
+                            <p class="route__block-travel route__difficulty">
+                                Difficulty: <span class="route__block-span"> 5***</span>
+                            </p>
+                            <p class="route__title-route">Route</p>
+                            <p class="route__info">Lookout - Spring - Dzhigit's Stone - Aderbievka - Mount Neksis -
+                                - Storm Gates - Barbecues - Tsygelsky waterfall (cup of love) -
+                                -Fast and Furious</p>
+                            <div class="route__buttons">
+                                <button class="route__more">
+                                    More
+                                </button>
+                                <button class="route__booking">
+                                    Booking
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="route__block1">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8 route__pack">
+                            <h3 class="route__block-subtitle">Experience</h3>
+                            <p class="route__block-price">
+                                from 7000 RUB
+                            </p>
+                            <p class="route__block-travel route__travel">Travel time:<span class="route__block-span">
+                                    4 hours</span>
+                            </p>
+                            <p class="route__block-travel route__distance">Distance: <span class="route__block-span">
+                                    40-50 km</span>
+                            </p>
+                            <p class="route__block-travel route__difficulty">
+                                Difficulty: <span class="route__block-span"> 5***</span>
+                            </p>
+                            <p class="route__title-route">Route</p>
+                            <p class="route__info">Fast and Furious - Blue Bay - Abandoned Tour Base - Dry cargo ship
+                                Rio -
+                                - Fast and Furious</p>
+                            <div class="route__buttons">
+                                <button class="route__more">
+                                    More
+                                </button>
+                                <button class="route__booking">
+                                    Booking
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <section class="my-10">
+
+                                <section class="carousel-3D-swiper-section">
+                                    <!-- Slider main container -->
+                                    <div class="carousel-3D-swiper">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper" style="max-width: 1200px;">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr8.jpg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr344444.png" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/quadr333.png" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/336666666666666666.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image-wrapper aspect-video">
+                                                    <img class="aspect-video" src="./src/img/999.jpg" alt="">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- pagination -->
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-pagination" style="bottom: -50px;"></div>
+                                    </div>
+                                </section>
+                            </section>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="test">
+            <div class="container">
+                <div class="test__object">
+                    <h3 class="test__title">Finding it difficult to choose a route?</h3>
+                    <p class="test__subtitle">
+                        Take the test and we will help you find the best tour for you</p>
+                    <a href="#" class="test__btn">Start test</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="picture">
+            <div class="container">
+                <h2 class="picture__title">
+                    Picture
+                </h2>
+                <section class="my-10">
+
+                    <section class="carousel-3D-swiper-section">
+                        <!-- Slider main container -->
+                        <div class="carousel-3D-swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper" style="max-width: 1200px;">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper aspect-video">
+                                        <img class="aspect-video" src="./src/img/quadr8.jpg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper aspect-video">
+                                        <img class="aspect-video" src="./src/img/quadr344444.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper aspect-video">
+                                        <img class="aspect-video" src="./src/img/quadr333.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper aspect-video">
+                                        <img class="aspect-video" src="./src/img/336666666666666666.jpg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper aspect-video">
+                                        <img class="aspect-video" src="./src/img/999.jpg" alt="">
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- pagination -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination" style="bottom: -50px;"></div>
+                        </div>
+                    </section>
+                </section>
+
+
+
+
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <div class="video__iframe">
+                    <iframe class="video__object" width="860" height="415"
+                        src="https://www.youtube.com/embed/OKbuE19GvAg" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="container">
+                <div class="our-team__div">
+                    <h3 class="our-team__title">Our team</h3>
+                    <div class="row gy-5">
+
+                        <div class=" col-xxl-3 col-lg-4 col-md-6  col-sm-12 mx-auto  routes">
+                            <div class="our-team__block">
+                                <img src="./src/img/Yulina.png" alt="our-team">
+                                <div class="our-team__titles">
+                                    <h3 class="our-team__name">
+                                        Juliana
+                                    </h3>
+                                    <p class="our-team__position">supervisor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-xxl-3 col-lg-4 col-md-6 col-sm-12 mx-auto  routes  ">
+                            <div class="our-team__block">
+                                <img src="./src/img/Maksim.png" alt="our-team">
+                                <div class="our-team__titles">
+                                    <h3 class="our-team__name">
+                                        Maksim
+                                    </h3>
+                                    <p class="our-team__position">senior instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xxl-3 col-lg-4 col-md-6 col-sm-12   routes ">
+                            <div class="our-team__block">
+                                <img src="./src/img/Kristina.png" alt="our-team">
+                                <div class="our-team__titles">
+                                    <h3 class="our-team__name">
+                                        Kristina
+                                    </h3>
+                                    <p class="our-team__position">
+                                        administrator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-xxl-3 col-lg-4 col-md-6 col-sm-12 mx-auto routes ">
+                            <div class="our-team__block">
+                                <img src="./src/img/Yuri.png" alt="our-team">
+                                <div class="our-team__titles">
+                                    <h3 class="our-team__name">
+                                        Yuri
+                                    </h3>
+                                    <p class="our-team__position">Chief engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <div class="service__block">
+                    <h3 class="service__title">Terms
+                        of Service</h3>
+                    <div class="row gy-5">
+                        <div class=" col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">When renting or renting, strictly observe the safety rules
+                                    and
+                                    all the requirements of the instructor!</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">Drinking alcoholic beverages during rental, rental is
+                                    PROHIBITED! (After? At your discretion)</p>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">Persons under the age of 16 and persons under the influence
+                                    of alcohol are NOT ALLOWED to drive!</p>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">Manage to the best of your ability and ability. Don't
+                                    overestimate yourself! This is dangerous!!!</p>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">Before each skiing, an experienced instructor will teach
+                                    you the basics of driving and will accompany you throughout the entire route.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-4 col-lg-6 col-md-12 col-sm-12 colS ">
+                            <div class="service__bloks">
+                                <p class="service__subtitle">When renting or renting, strictly follow the safety rules
+                                    and all the requirements of the instructor!</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers__div">
+                    <h3 class="offers__title">
+                        Special offers
+                    </h3>
+                    <div class="row gy-5">
+                        <div class="col-xxl-6 col-lg-7 col-md-8 col-sm-12  block12">
+                            <div class="offers__block">
+                                <img class="offers__img" src="./src/img/podarok.png" alt="offers">
+                                <div class="offers__titles">
+                                    <h3 class="offers__subtitle">
+                                        10% discount
+                                        <span class="offers__birthday">
+                                            on birthday</span>
+                                    </h3>
+                                    <p class="offers_more">
+                                        in honor of the birthday - we give
+                                        birthday boy 10% discount</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-6 col-lg-7 col-md-8 col-sm-12  block12">
+                            <div class="offers__block">
+                                <img class="offers__img" src="./src/img/exkubN.png" alt="offers">
+                                <div class="offers__titles">
+                                    <h3 class="offers__subtitle">
+                                        10% discount
+
+                                    </h3>
+                                    <p class="offers_more">
+
+                                        Ex-Kuban clients for services
+                                        Country club Yagoda Raspberry</p>
+                                    <button class="offers__btn">More</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="answers">
+            <div class="container">
+                <div class="answers__question">
+                    <h3 class="answers__title">
+                        Questions answers</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <section class="p-section-faq">
+                                <div class="l-inner">
+
+                                    <details class="p-section-faq__item p-faq js-faq-details">
+                                        <summary class="p-faq__question js-faq-question">Actuall question?<span
+                                                class="p-faq__icon"></span></summary>
+                                        <div class="p-faq__answer js-faq-answer">
+                                            <p class="p-faq__answer-inner">Lorem, ipsum dolor sit amet consectetur
+                                                adipisicing elit. Quia molestias ipsum eum saepe, facere deserunt
+                                                tempora hic quam commodi laudantium exercitationem ipsa optio dolore
+                                                dolorem quas vel voluptatibus, enim delectus nobis? Perferendis vitae
+                                                libero delectus rerum explicabo natus, voluptas magnam, quo porro illum
+                                                laboriosam sit eaque voluptate quaerat perspiciatis quas?</p>
+                                        </div>
+                                    </details>
+                                    <details class="p-section-faq__item p-faq js-faq-details">
+                                        <summary class="p-faq__question js-faq-question">Actuall question?<span
+                                                class="p-faq__icon"></span></summary>
+                                        <div class="p-faq__answer js-faq-answer">
+                                            <p class="p-faq__answer-inner">Lorem, ipsum dolor sit amet consectetur
+                                                adipisicing elit. Quia molestias ipsum eum saepe, facere deserunt
+                                                tempora hic quam commodi laudantium exercitationem ipsa optio dolore
+                                                dolorem quas vel voluptatibus, enim delectus nobis? Perferendis vitae
+                                                libero delectus rerum explicabo natus, voluptas magnam, quo porro illum
+                                                laboriosam sit eaque voluptate quaerat perspiciatis quas?</p>
+                                        </div>
+                                    </details>
+                                    <details class="p-section-faq__item p-faq js-faq-details">
+                                        <summary class="p-faq__question js-faq-question">Actuall question?<span
+                                                class="p-faq__icon"></span></summary>
+                                        <div class="p-faq__answer js-faq-answer">
+                                            <p class="p-faq__answer-inner">Lorem, ipsum dolor sit amet consectetur
+                                                adipisicing elit. Quia molestias ipsum eum saepe, facere deserunt
+                                                tempora hic quam commodi laudantium exercitationem ipsa optio dolore
+                                                dolorem quas vel voluptatibus, enim delectus nobis? Perferendis vitae
+                                                libero delectus rerum explicabo natus, voluptas magnam, quo porro illum
+                                                laboriosam sit eaque voluptate quaerat perspiciatis quas?</p>
+                                        </div>
+                                    </details>
+                                    <details class="p-section-faq__item p-faq js-faq-details">
+                                        <summary class="p-faq__question js-faq-question">Actuall question?<span
+                                                class="p-faq__icon"></span></summary>
+                                        <div class="p-faq__answer js-faq-answer">
+                                            <p class="p-faq__answer-inner">Lorem, ipsum dolor sit amet consectetur
+                                                adipisicing elit. Quia molestias ipsum eum saepe, facere deserunt
+                                                tempora hic quam commodi laudantium exercitationem ipsa optio dolore
+                                                dolorem quas vel voluptatibus, enim delectus nobis? Perferendis vitae
+                                                libero delectus rerum explicabo natus, voluptas magnam, quo porro illum
+                                                laboriosam sit eaque voluptate quaerat perspiciatis quas?</p>
+                                        </div>
+                                    </details>
+
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="answers__chats">
+                                <img class="answers__chat-img" src="./src/img/gridicons_chat.png" alt="chats">
+                                <h3 class="answers__chat-title">Have questions?</h3>
+                                <p class="answers__chat-subtitle">Feel free to contact us
+                                    if you have any questions, suggestions
+                                    or ideas for collaboration</p>
+                                <button class="answers__btn">Ask a Question</button>
+                            </div>
+
+                        </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services__div">
+                    <h2 class="services__title">Additional services</h2>
+                    <div class="cards-list">
+
+                        <div class="card 1">
+                            <div class="card_image"> <img src="./src/img/evo.jpg" alt="ATVS" /> </div>
+                            <div class="card_title title-white">
+                                <p class="card-subtitle">Evacuation, repair
+                                    ATVs
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card 2">
+                            <div class="card_image">
+                                <img src="./src/img/fot.jpg" />
+                            </div>
+                            <div class="card_title title-white">
+                                <p class="card-subtitle">Photo, video filming</p>
+                            </div>
+                        </div>
+
+                        <div class="card 3">
+                            <div class="card_image">
+                                <img src="./src/img/atvs tex.jpg" />
+                            </div>
+                            <div class="card_title">
+                                <p class="card-subtitle">Transportation
+                                    technology</p>
+                            </div>
+                        </div>
+                        <div class="card 4">
+                            <div class="card_image">
+                                <img src="./src/img/atvs44.jpg" />
+                            </div>
+                            <div class="card_title title-black">
+                                <p class="card-subtitle">Refueling, checkup, <br> washing</p>
+                            </div>
+                        </div>
+                        <div class="card 4">
+                            <div class="card_image">
+                                <img src="./src/img/group diss.jpg" />
+                            </div>
+                            <div class="card_title title-black">
+                                <p class="card-subtitle">Corporate events,
+                                    team building</p>
+                            </div>
+                        </div>
+                        <div class="card 4">
+                            <div class="card_image">
+                                <img src="./src/img/break.jpg" />
+                            </div>
+                            <div class="card_title title-black">
+                                <p class="card-subtitle">Offsite catering</p>
+                            </div>
+                        </div>
+                        <div class="card 4">
+                            <div class="card_image">
+                                <img src="./src/img/individual.jpg" />
+                            </div>
+                            <div class="card_title title-black">
+                                <p class="card-subtitle">Individual
+                                    routes</p>
+                            </div>
+                        </div>
+                        <div class="card 4">
+                            <div class="card_image">
+                                <img src="./src/img/gi.jpg" />
+                            </div>
+                            <div class="card_title title-black">
+                                <p class="card-subtitle">Guide services</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-6 col-md-12 footer__contact-block">
+                    <h3 class="footer__title">Contact</h3>
+                    <div class="footer__icons">
+                        <div class="row">
+                            <a class=" col-lg-6 col-md-12 footer__icons-title" href="#"> <img class="footer__icons-img"
+                                    src="./src/img/locale.png" alt="location">City of Gelendzhik</a>
+                            <a class=" col-lg-6 col-md-12 footer__icons-title" href="#"><img class="footer__icons-img"
+                                    src="./src/img/phone (3) 1.svg" alt="phone number">+7 928 428-00-62</a>
+
+
+
+                            <a class=" col-lg-6 col-md-9 footer__icons-title" href="experience@groupgrand.ru"> <img
+                                    class="footer__icons-img" src="./src/img/email (2) 1.svg"
+                                    alt="email">experience@groupgrand.ru</a>
+                            <p class=" col-lg-6 col-md-12  footer__icons-title1"> <img class="footer__icons-img"
+                                    src="./src/img/akar-icons_clock.svg" alt="akar-icons_clock">
+                                <span class="time_work">Mon - Fri: 9:00 - 18:00
+                                    <br>
+                                    Sat: 9:00 - 17:00
+                                    Sun - day off</span>
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="footer__links">
+                        <h3 class="footer__links-title">Write to us:</h3>
+                        <a href="#"><img src="./src/img/link whatsapp.png" alt="whatsapp"></a>
+                        <a href="#"><img src="./src/img/instagram.png" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55002.9279994785!2d38.005824741625126!3d44.578272736895094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f18f4e2e7fb9ad%3A0x9c7bc0b3f2a23016!2sGelendzhik%2C%20Krasnodar%20Krai%2C%20Russia!5e1!3m2!1sen!2skg!4v1672311698877!5m2!1sen!2skg"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+
+<script src="./src/libs/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+<script src="./src/libs/swiper/bundle.js"></script>
+<script src="./src/libs/swiper/bundle-min.js"></script>
+<script src="./src/js/main.js"></script>
+<script src="./src/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<script src="./src/libs/jquery/jquery.fancybox.min.js"></script>
+<script src="./src/libs/slick/slick.min.js"></script>
+
+
+
+</html>
